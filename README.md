@@ -5,7 +5,7 @@
 
 Guide and best practice of web development
 
-## Display posts by specific category
+## 1. Display posts by specific category
    This example uses bootstrap column grid
 ```php
 <?php
