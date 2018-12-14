@@ -5,7 +5,7 @@
 
 Guide and best practice of web development
 
-## BACKEND
+## GUIDES
 
 * Set most appropriate image sizes in admin and in output
 * Forms are submitting data properly & gives the user feedback
