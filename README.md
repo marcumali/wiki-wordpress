@@ -10,16 +10,15 @@ Guide and best practice of web development
 ```php
 <?php
 
-    $i = 0;
+    	$i = 0;
 	$args = array(
-		'post_type'   => 'room',
+	'post_type'   => 'room',
         'post_status' => 'publish',
         'orderby' => '',
 	);
 
 	$wpQuery = new WP_Query( $args );
 	$postList = $wpQuery->posts;
-
 ?>
 
 <?php if( $postList ) : ?>
