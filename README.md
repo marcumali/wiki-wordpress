@@ -12,7 +12,7 @@ Guide and best practice of web development
 
     $i = 0;
 	$args = array(
-	'post_type'   => 'room',
+		'post_type'   => 'room',
         'post_status' => 'publish',
         'orderby' => '',
 	);
