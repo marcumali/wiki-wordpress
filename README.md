@@ -6,13 +6,13 @@
 Guide and best practice of web development
 
 ## Display posts by specific category
-   This example uses bootstrap column grid.
+   This example uses bootstrap column grid
 ```php
 <?php
 
     $i = 0;
 	$args = array(
-		'post_type'   => 'room',
+	'post_type'   => 'room',
         'post_status' => 'publish',
         'orderby' => '',
 	);
@@ -34,7 +34,7 @@ Guide and best practice of web development
             $col2nd = '';
         }
     ?>
-    <div class="row image-text-casing">
+    <div class="row">
         <div class="col-md-7 <?php echo $col1st; ?>">
             <div>
                 <?php echo $image; ?>
