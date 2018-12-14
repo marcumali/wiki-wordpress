@@ -6,7 +6,7 @@
 Guide and best practice of web development
 
 ## 1. Display posts by specific category
-   This example uses bootstrap column grid
+   This example uses bootstrap column classes.
 ```php
 <?php
 
