@@ -22,20 +22,6 @@ Guide and best practice of web development
 	- `define('DISABLE_WP_CRON', 'true');`
 * function.php
 	- `add_filter('xmlrpc_enabled', '__return_false');`
-	- 
-	```php
-	function remove_version() { 
-		return ''; 
-	} 
-		add_filter('the_generator', 'remove_version');
-	```
-	- 
-	```php
-	function wrong_login() { 
-		return 'Wrong username or password'; 
-	} 
-	add_filter('login_errors', 'wrong_login');
-	```
 
 
 ## 1. Display posts by specific post type
@@ -79,4 +65,18 @@ Guide and best practice of web development
     </div>
     <?php $i++; endforeach; ?>
 <?php endif; ?>
+```
+## 2. Remove/Change default login error
+```php
+function wrong_login() { 
+	return 'Wrong username or password'; 
+} 
+add_filter('login_errors', 'wrong_login');
+```
+## 3. Remove Wordpress version
+```php
+function remove_version() { 
+	return ''; 
+} 
+add_filter('the_generator', 'remove_version');
 ```
